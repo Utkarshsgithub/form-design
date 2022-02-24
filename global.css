@@ -24,8 +24,9 @@ a:active {
   background-color: transparent;
 }
 
-input, textarea {
-    caret-color: #fff;
+input,
+textarea {
+  caret-color: #fff;
 }
 
 /*  website styling  */
@@ -60,17 +61,18 @@ input, textarea {
   width: 600px;
   font-size: large;
   outline: none;
-  transition: border-color .2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
 }
 
 #container form input:focus,
 #container form textarea:focus {
-    border-color: #fff;
+  border-color: #fff;
 }
 
 #text h1 {
   margin-top: 30px;
   font-size: 5rem;
+  line-height: 80px;
 }
 
 /*  utility classes  */
@@ -106,8 +108,40 @@ input, textarea {
 
 /*  media querries   */
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 1512px) {
+  #container form {
+    margin-left: 50px;
   }
+}
+
+@media only screen and (max-width: 1432px) {
+  #container form {
+    margin-left: 0;
+  }
+
+  #text h1 {
+    margin-bottom: 25px;
+  }
+  #container {
+    flex-direction: column;
+  }
+  #container form input,
+  #container form textarea {
+    width: auto;
+  }
+  #container {
+    margin: 100px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+    #container {
+        margin: 50px;
+      }
+}
+
+@media only screen and (max-width: 510px) {
+    #container {
+        margin: 25px;
+      }
 }
