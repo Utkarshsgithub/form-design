@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* ::selection {
+  background: white;
+  color: black;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+a:active {
+  background-color: transparent;
+}
+
+/*  website styling  */
+
+#container {
+  width: 90%;
+  margin: 100px;
+}
+
+#text h1 {
+    font-size: 5rem;
+}
+
+/*  utility classes  */
+
+.remove_list_style {
+  list-style: none;
+}
+
+.remove_link_style {
+  text-decoration: none;
+  color: inherit;
+}
+
+.trans2s {
+  transition: 0.2s ease-in-out;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  media querries   */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
