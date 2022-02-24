@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 30px;
   background: #1f1f1f;
   color: #fff;
@@ -24,18 +24,66 @@ a:active {
   background-color: transparent;
 }
 
+input, textarea {
+    caret-color: #fff;
+}
+
 /*  website styling  */
 
 #container {
   width: 90%;
-  margin: 100px;
+  margin: 200px;
+  display: flex;
+}
+
+#container form {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+*::placeholder {
+  font-size: large;
+}
+
+#container form textarea::placeholder {
+  font-size: large;
+}
+
+#container form input,
+#container form textarea {
+  color: #fff;
+  margin: 25px 0;
+  background: transparent;
+  border: 2px solid #888888;
+  padding: 20px 25px;
+  width: 600px;
+  font-size: large;
+  outline: none;
+  transition: border-color .2s ease-in-out;
+}
+
+#container form input:focus,
+#container form textarea:focus {
+    border-color: #fff;
 }
 
 #text h1 {
-    font-size: 5rem;
+  margin-top: 30px;
+  font-size: 5rem;
 }
 
 /*  utility classes  */
+
+.btn {
+  background: #1346ef;
+  color: #fff;
+  border: none;
+  padding: 20px 0;
+  font-size: large;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
 
 .remove_list_style {
   list-style: none;
