@@ -38,23 +38,29 @@
 
         </section>
 
-        <form action="">
+        <form action="https://formsubmit.co/utkarshcodes13@gmail.com" method="post">
 
-          <input style="margin-top: 0;" type="text" placeholder="Your full name" />
+          <input name="name" style="margin-top: 0;" type="text" placeholder="Your full name" required/>
 
-          <input type="email" placeholder="Email" />
+          <input name="email" type="email" placeholder="Email" required/>
 
-          <input type="text" placeholder="Country">
+          <select name="country" required>
+            <option selected>Country</option>
+            <option value="1">India</option>
+            <option value="2">United States</option>
+            <option value="3">Russia</option>
+            <option value="4">Ukraine</option>
+          </select>
 
           <textarea
             placeholder="Your message"
-            name="messege"
+            name="message"
             id=""
             cols="30"
             rows="10"
           ></textarea>
 
-          <button class="btn">Submit Form</button>
+          <button type="submit" class="btn">Submit Form</button>
 
         </form>
 

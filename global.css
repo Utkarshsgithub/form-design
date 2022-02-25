@@ -52,7 +52,8 @@ textarea {
 }
 
 #container form input,
-#container form textarea {
+#container form textarea,
+select {
   color: #fff;
   margin: 25px 0;
   background: transparent;
@@ -64,8 +65,14 @@ textarea {
   transition: border-color 0.2s ease-in-out;
 }
 
+option {
+  padding: 25px;
+  background: #1f1f1f;
+}
+
 #container form input:focus,
-#container form textarea:focus {
+#container form textarea:focus,
+select:focus {
   border-color: #fff;
 }
 
@@ -126,7 +133,8 @@ textarea {
     flex-direction: column;
   }
   #container form input,
-  #container form textarea {
+  #container form textarea,
+  select {
     width: auto;
   }
   #container {
