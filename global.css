@@ -26,7 +26,7 @@ a:active {
 
 input,
 textarea {
-  caret-color: #fff;
+  caret-color: #1f1f1f;
 }
 
 /*  website styling  */
@@ -54,7 +54,7 @@ textarea {
 #container form input,
 #container form textarea,
 select {
-  color: #fff;
+  color: #1f1f1f;
   margin: 25px 0;
   background: transparent;
   border: 2px solid #888888;
@@ -73,7 +73,7 @@ option {
 #container form input:focus,
 #container form textarea:focus,
 select:focus {
-  border-color: #fff;
+  border-color: #1f1f1f;
 }
 
 #text h1 {
