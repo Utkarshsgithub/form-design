@@ -16,8 +16,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   line-height: 30px;
-  background: #1f1f1f;
-  color: #fff;
+  background: #fff;
+  color: #1f1f1f;
 }
 
 a:active {
