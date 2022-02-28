@@ -68,6 +68,7 @@ select {
 option {
   padding: 25px;
   background: #1f1f1f;
+  color: #fff;
 }
 
 #container form input:focus,
